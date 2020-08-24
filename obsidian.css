@@ -13,6 +13,7 @@
   --text-accent: #61afef;
   --text-accent-hover: #69bafd;
   --text-normal: rgba(255, 255, 255, 0.9);
+  --text-muted: rgb(204, 204, 204);
   --text-selection: rgba(45, 170, 219, 0.3);
 
   --red-1: rgba(255, 115, 105, 0.5);
