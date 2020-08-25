@@ -1,8 +1,8 @@
 # Obsidian Relaxed
 
-> This is very much as work in progress, and is currently liable to change drastically. 
+A theme that is inspired by and borrows elements from VSCode, Atom and Notion to provide a comfortable note taking environment.
 
-This theme is inspired by and borrows elements from VSCode, Atom and Notion to provide a comfortable reading and writing environment.
+Currently this theme only supports dark-mode.
 
 ## Usage
 
