@@ -14,6 +14,7 @@
   --text-accent-hover: #69bafd;
   --text-normal: rgba(255, 255, 255, 0.9);
   --text-muted: rgb(204, 204, 204);
+  --text-faint: rgb(153, 153, 153);
   --text-selection: rgba(45, 170, 219, 0.3);
 
   --red-1: rgba(255, 115, 105, 0.5);
@@ -30,6 +31,13 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
+}
+
+input[type="text"]::placeholder, 
+input[type="email"]::placeholder, 
+input[type="password"]::placeholder, 
+input[type="number"]::placeholder {
+  color: var(--text-faint);
 }
 
 .theme-dark :not(pre) > code[class*="language-"], .theme-dark pre[class*="language-"] {
