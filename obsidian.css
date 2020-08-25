@@ -16,6 +16,8 @@
   --text-muted: rgb(204, 204, 204);
   --text-faint: rgb(153, 153, 153);
   --text-selection: rgba(45, 170, 219, 0.3);
+  --interactive-accent: rgb(0, 122, 204);
+  --interactive-accent-hover: rgb(32, 139, 210);
 
   --red-1: rgba(255, 115, 105, 0.5);
   --red-2: rgb(235, 87, 87);
