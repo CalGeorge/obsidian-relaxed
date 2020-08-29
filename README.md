@@ -4,6 +4,8 @@ A theme that is inspired by and borrows elements from VSCode, Atom and Notion to
 
 Currently this theme only supports dark-mode.
 
+![Screenshot](./screenshot.png)
+
 ## Usage
 
 Copy the `obsidian.css` file into your Obsidian vault and enable css via `Settings -> Appearance -> Custom CSS`
