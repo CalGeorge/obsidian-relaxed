@@ -90,6 +90,23 @@ a.tag, a.tag:hover {
   font-weight: 700;
 }
 
+.markdown-preview-section ol {
+  list-style: none;
+  counter-reset: list-counter;
+}
+
+.markdown-preview-section ol li {
+  counter-increment: list-counter;
+  position: relative;
+}
+
+.markdown-preview-section ol li::before {
+  position: absolute;
+  content: counter(list-counter) ". ";
+  color: var(--text-muted);
+  left: -1em;
+}
+
 .markdown-preview-view code {
   padding: 0.2em 0.4em;
   border-radius: 3px;
