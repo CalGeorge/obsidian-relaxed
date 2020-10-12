@@ -86,6 +86,10 @@ a.tag, a.tag:hover {
   max-width: 900px;
 }
 
+.markdown-preview-sizer {
+  -webkit-font-smoothing: antialiased;
+}
+
 .markdown-preview-view th {
   font-weight: 700;
 }
